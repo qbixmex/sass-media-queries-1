@@ -1,0 +1,64 @@
+#header {
+  background-color: $primary-color;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $light;
+  
+  h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+  }
+
+  button {
+    background-color: $dark;
+    color: $light;
+    border: none;
+    padding: 12px 24px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    &:hover {
+      background-color: $light;
+      color: $dark;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #header {
+    height: 400px;
+    h1 {
+      font-size: 64px;
+    }
+  
+    p {
+      font-size: 24px;
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}
